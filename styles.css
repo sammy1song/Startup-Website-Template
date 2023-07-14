@@ -1,0 +1,100 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('background.jpg');
+    background-size: contain;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: transparent;
+    z-index: 999;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #008CBA;
+}
+
+.main-content {
+    text-align: center;
+    padding: 50px;
+}
+
+.main-content section {
+    margin-bottom: 50px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cta-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #008CBA;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #004A55;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    margin-top: 10px;
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #008CBA;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #004A55;
+}
